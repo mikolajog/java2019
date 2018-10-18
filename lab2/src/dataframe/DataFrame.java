@@ -6,9 +6,9 @@ import java.util.Arrays;
 
 public class DataFrame {
 
-    private String[] columns_names;
-    private String[] types;
-    private ArrayList<ArrayList<Object>> list = new ArrayList<>();
+    protected String[] columns_names;
+    protected String[] types;
+    protected ArrayList<ArrayList<Object>> list = new ArrayList<>();
 
     /*DataFrame df = new  DataFrame(new String[]{"kol1","kol2","kol3"},
                          new String[]{"int","double","MyCustomType"} */
