@@ -2,20 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="405e7a3f-d3bc-4274-b518-c40df74588a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab2/src/dataframe/MyCustomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zadanie1/Final.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zadanie4/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zadanie5/EmailMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zadanie5/SendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie1/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie1/ShapeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie2/Kadry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie2/Pracownik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie2/PracownikEtatowy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie3/PensjaComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie4/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie4/Cryptographer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie4/Polibiusz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab4/src/zadanie4/ROT11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/dataframe/COOValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/out/production/lab2/dataframe/COOValue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/dataframe/DataFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/out/production/lab2/dataframe/DataFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/punkt2d/Punkt2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/punkt2d/Punkt3D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/punkt2d/PunktProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/punkt2d/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/out/production/lab2/dataframe/SparseDataFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/out/production/lab2/dataframe/SparseDataFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/dataframe/COOValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/dataframe/COOValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2/src/dataframe/DataFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/dataframe/DataFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/dataframe/DataFrameProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/dataframe/DataFrameProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/dataframe/SparseDataFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/dataframe/SparseDataFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,16 +41,37 @@
     <session id="327386894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/zadanie1/Final.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -45,11 +79,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="298" />
-    <option name="y" value="83" />
-    <option name="width" value="1398" />
-    <option name="height" value="936" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="493" />
+    <option name="y" value="120" />
+    <option name="width" value="1396" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -66,6 +100,11 @@
               <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -75,10 +114,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539646662407" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540215620034" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,6 +137,59 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.SendEmail">
+    <configuration name="Final" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadanie1.Final" />
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadanie4.Main" />
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadanie5.SendEmail" />
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Final" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SendEmail" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SendEmail" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Final" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,25 +202,28 @@
       <updated>1539637119878</updated>
       <workItem from="1539637123387" duration="611000" />
       <workItem from="1539697952443" duration="131000" />
+      <workItem from="1540157558614" duration="5000" />
+      <workItem from="1540215294830" duration="354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="742000" />
+    <option name="totallyTimeSpent" value="1101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="493" y="120" width="1396" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18960752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25703704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32901555" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -147,6 +248,38 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/zadanie4/Shape.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie1/Final.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie5/EmailMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zadanie5/SendEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

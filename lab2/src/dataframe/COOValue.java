@@ -12,7 +12,6 @@ public  final class COOValue {
         return y;
     }
 
-
     COOValue(int x, Object y){
         this.x = x;
         this.y = y;

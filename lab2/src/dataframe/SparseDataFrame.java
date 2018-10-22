@@ -17,7 +17,26 @@ public class SparseDataFrame extends DataFrame {
         for(int i=0; i<columns_names.length; i++)
         {
             list.add(new ArrayList<>());
+        }
+    }
 
+    public SparseDataFrame (DataFrame dataFrame, String hide){
+        columns_names = dataFrame.columns_names.clone();
+        types = dataFrame.types.clone();
+        hide_val = hide;
+        line_numbers=0;
+
+        for(int i=0; i<columns_names.length; i++)
+        {
+            list.add(new ArrayList<>());
+        }
+
+        Object[] objects = new Object[dataFrame.list.size()];
+        for(int i=0; i<dataFrame.list.get(0).size(); i++){
+            for(int j=0; j<dataFrame.list.size(); j++) {
+                objects[j] = dataFrame.list.get(j).get(i);
+            }
+            add_line(objects);
         }
     }
 
@@ -27,12 +46,13 @@ public class SparseDataFrame extends DataFrame {
         return line_numbers;
     }
 
+
     public void add_line(Object[] object)
     {
         for(int i=0; i<object.length; i++)
         {
             if(object[i].toString().equals(hide_val)){
-                continue;
+
             }
             else
             {
@@ -76,27 +96,30 @@ public class SparseDataFrame extends DataFrame {
 
     public SparseDataFrame ilocSparse(int i)
     {
-        SparseDataFrame d1 = new SparseDataFrame(columns_names, types, hide_val.toString());
+        SparseDataFrame d1 = new SparseDataFrame(columns_names, types, hide_val);
         Object[] addition = new Object[columns_names.length];
 
         for(int j=0; j<columns_names.length; j++)
         {
-            addition[j] = list.get(j).get(i);
+            COOValue c1 = (COOValue) list.get(j).get(i);
+            addition[j] = c1.getY();
         }
 
         d1.add_line(addition);
+
 
         return d1;
     }
 
     public SparseDataFrame ilocSparse(int from, int to)
     {
-        SparseDataFrame d1 = new SparseDataFrame(columns_names, types, hide_val.toString());
+        SparseDataFrame d1 = new SparseDataFrame(columns_names, types, hide_val);
         Object[] addition = new Object[columns_names.length];
         for(int k=from; k<=to; k++) {
             for (int j = 0; j < columns_names.length; j++)
             {
-                addition[j] = list.get(j).get(k);
+                COOValue c1 = (COOValue) list.get(j).get(k);
+                addition[j] = c1.getY();
             }
 
             d1.add_line(addition);
@@ -108,9 +131,18 @@ public class SparseDataFrame extends DataFrame {
     public static void main (String[] args){
         SparseDataFrame df = new SparseDataFrame(new String[]{"kol1", "kol2", "kol3"}, new String[]{"int", "int", "int"}, "0");
 
-        df.add_line(new Object[]{1,2,0});
-        df.add_line(new Object[]{0,2,1});
+        df.add_line(new Object[]{0,2,7});
+        df.add_line(new Object[]{9,2,0});
         df.add_line(new Object[]{4,5,8});
+
+        DataFrame dat = new DataFrame(new String[]{"kol1","kol2","kol3"}, new String[]{"int","int","int"});
+        df.add_line(new Object[]{0, 2, 8});
+        df.add_line(new Object[]{3, 4, 0});
+        df.add_line(new Object[]{2, 5 ,9});
+
+        SparseDataFrame f1 = new SparseDataFrame(dat, "0");
+        df = f1;
+
 
         ArrayList<Object> v = df.get("kol1");
         COOValue v1 = (COOValue)v.get(0);
@@ -119,21 +151,24 @@ public class SparseDataFrame extends DataFrame {
         System.out.println(v2.getX() +" "+ v2.getY());
 
         SparseDataFrame d1 = df.get_Sparse(new String[]{"kol1"}, false);
+
         ArrayList<Object> v11 = d1.get("kol1");
         COOValue v111 = (COOValue)v11.get(0);
         System.out.println(v111.getX() +" "+ v111.getY());
         COOValue v211 = (COOValue)v11.get(1);
         System.out.println(v211.getX() +" "+ v211.getY());
 
+
         SparseDataFrame d2 = df.ilocSparse(0,1);
-        ArrayList<Object> a = d2.get("kol1");
+        ArrayList<Object> a = d2.get("kol3");
         COOValue a1 = (COOValue)a.get(0);
-        System.out.println(a1.getX() +" "+ a1.getY());
+        System.out.println(a1.getX() + " "+ a1.getY());
         COOValue a2 = (COOValue)a.get(1);
         System.out.println(a2.getX() +" "+ a2.getY());
 
+
         SparseDataFrame d3 = df.ilocSparse(0);
-        ArrayList<Object> b = d3.get("kol3");
+        ArrayList<Object> b = d3.get("kol2");
         COOValue b1 = (COOValue)b.get(0);
         System.out.println(b1.getX() +" "+ b1.getY());
 
