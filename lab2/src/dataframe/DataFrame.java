@@ -1,5 +1,7 @@
 package dataframe;
 
+import javax.xml.crypto.Data;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -116,12 +118,50 @@ public class DataFrame {
             d1.add_line(addition);
         }
             return d1;
+    }
+
+    public DataFrame(String fileName, String[] tab, boolean header)throws FileNotFoundException, IOException {
+        // Open the file
+        this.columns_names = tab.clone();
+        this.types = tab.clone();
+
+        for(int i=0; i<columns_names.length; i++)
+        {
+            list.add(new ArrayList<>());
+        }
+
+        FileInputStream fstream = new FileInputStream(fileName);
+        BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+        String strLine;
+        if(header){br.readLine();}
+        Object[] o;
+//Read File Line By Line
+        while ((strLine = br.readLine()) != null)   {
+            o=new Object[this.columns_names.length];
+            String[] taby = strLine.split(",");
+            for(int j=0; j<tab.length; j++){
+                o[j] = taby[j];
+            }
+            this.add_line(o);
+        }
+
+//Close the input stream
+        br.close();
 
     }
 
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException, FileNotFoundException
     {
+        DataFrame frejm = new DataFrame("data.csv", new String[]{"int", "int", "int"}, true);
+
+        System.out.println("Sprawdzam iloc(0)");
+        DataFrame d22 = frejm;
+        for(int i=0; i<30; i++){
+            System.out.println(d22.list.get(0).get(i)+" "+d22.list.get(1).get(i)+" "+d22.list.get(2).get(i)+" ");
+
+        }
+
         //deklarujemy DataFrame
         DataFrame df = new  DataFrame(new String[]{"kol1","kol2","kol3"}, new String[]{"int","double","MyCustomType"});
         MyCustomType variable = new MyCustomType(1,2);

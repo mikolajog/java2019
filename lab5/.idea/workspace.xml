@@ -6,25 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57dbdeb-6a64-4c1d-8823-b8c46e440e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab1/.idea/lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jar_files_1_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Macierz/Macierz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Macierz/MacierzProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/microdvd/MicroDVD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/photos/Photos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/main/java/cos/Klasa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/test/java/KlasaTesty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testing/src/test/java/testy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labTesty/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labTesty/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labTesty/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labTesty/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labTesty/src/main/java/classA/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labTesty/src/main/java/food/InadequateFoodException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labTesty/src/main/java/food/Mammoth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labTesty/src/test/java/classA/ClassATest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,26 +26,26 @@
     <session id="-65640114">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="element-list" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -73,7 +62,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/microdvd/MicroDVD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,9 +106,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1068" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="852" />
+    <option name="width" value="1855" />
     <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -124,6 +127,24 @@
             <path>
               <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="microdvd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="microdvd" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroDVD.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -226,17 +247,18 @@
       <workItem from="1540742540108" duration="19735000" />
       <workItem from="1540810831422" duration="601000" />
       <workItem from="1540855800113" duration="49000" />
+      <workItem from="1540898268170" duration="618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24846000" />
+    <option name="totallyTimeSpent" value="25464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09618574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09729132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -317,20 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/microdvd/MicroDVD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -338,9 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -348,6 +353,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/microdvd/MicroDVD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
