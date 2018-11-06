@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d66c15b7-fe9d-49fc-ac83-aafdd41c5353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kolos/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kolos/src/main/java/appl/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kolos/src/main/java/appl/Saveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kolos/src/main/java/excp/DivideByZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kolos/src/main/java/excp/FactorialFromNegative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kolos/src/main/java/excp/TooBigNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kolos/src/test/java/appl/CalculatorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kolos/src/test/java/excp/TooBigNumberExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d66c15b7-fe9d-49fc-ac83-aafdd41c5353" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +20,7 @@
     <session id="1276953300">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.opened" value="2" />
@@ -562,7 +552,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

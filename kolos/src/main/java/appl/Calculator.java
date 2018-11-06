@@ -12,6 +12,7 @@ public class Calculator implements Saveable {
     public void SaveToFile(double x, String filename) throws FileNotFoundException {
         PrintWriter zapis = new PrintWriter(filename);
         zapis.print(result);
+        zapis.close();
     }
 
     private double result;
