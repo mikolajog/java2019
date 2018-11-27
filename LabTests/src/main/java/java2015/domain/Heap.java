@@ -1,11 +1,15 @@
 package java2015.domain;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
-public class Heap {
+
+
+public class Heap<T> {
 
 	private int heapSize = 0;
-	private ArrayList<Double> tab = new ArrayList<>();
+	private Comparator comparator;
+	private ArrayList<T> tab = new ArrayList<>();
 
     public int getHeapSize() {
         return heapSize;
@@ -15,15 +19,19 @@ public class Heap {
         this.heapSize = heapSize;
     }
 
-    public ArrayList<Double> getTab() {
+    public void setComparator (Comparator comparator){
+    	this.comparator = comparator;
+	}
+
+    public ArrayList<T> getTab() {
         return tab;
     }
 
-    public void setTab(ArrayList<Double> tab) {
+    public void setTab(ArrayList<T> tab) {
         this.tab = tab;
     }
 
-    public void insert(double value) {
+    public void insert(T value) {
 		int currentIndex = heapSize;
 		int parentIndex = parentIndex(currentIndex);
 		tab.add(value);
@@ -36,18 +44,18 @@ public class Heap {
 	}
 
 	public boolean isChildGreaterThanParent(int currentIndex, int parentIndex) {
-		return tab.get(currentIndex) > tab.get(parentIndex);
+		return(comparator.compare(tab.get(currentIndex),tab.get(parentIndex))==1);
 	}
 
 	public void swapElements(int currentIndex, int parentIndex) {
-		Double parentValue = tab.get(parentIndex);
-		Double currentValue = tab.get(currentIndex);
+		T parentValue = tab.get(parentIndex);
+		T currentValue = tab.get(currentIndex);
 		tab.set(parentIndex, currentValue);
 		tab.set(currentIndex, parentValue);
 	}
 
-	public Double parentValue(int currentIndex) {
-		Double parentValue = tab.get(parentIndex(currentIndex));
+	public T parentValue(int currentIndex) {
+		T parentValue = tab.get(parentIndex(currentIndex));
 		return parentValue;
 	}
 
@@ -59,7 +67,7 @@ public class Heap {
 		return heapSize ;
 	}
 
-	public double top() {
+	public T top() {
 		return tab.get(0);
 	}
 
@@ -68,12 +76,12 @@ public class Heap {
 		int r = (index*2) + 2;
 		int largest = index;
 
-		if (l<heapSize && tab.get(l)>tab.get(index)){
+		if (l<heapSize &&comparator.compare(tab.get(l),tab.get(index))==1){
 			largest = l;
 
 		}
 
-		if (r<heapSize && tab.get(r)>tab.get(largest)){
+		if (r<heapSize &&comparator.compare(tab.get(r),tab.get(largest))==1){
 			largest = r;
 		}
 
@@ -83,12 +91,12 @@ public class Heap {
 		}
 	}
 
-	public double extractMax(){
+	public T extractMax(){
 		if(tab.size()<1){
-			return 0.0;
+			return null;
 		}
 
-		double max = top();
+		T max = top();
 		tab.set(0, tab.get(heapSize-1));
 		tab.remove(heapSize-1);
 		heapSize--;
@@ -106,27 +114,27 @@ public class Heap {
 		maxHeapify(0);
 	}
 
-	public double replace(double replacement){
+	public T replace(T replacement){
 		if(tab.size()<1){
-			return 0.0;
+			return replacement;
 		}
-		double max = top();
+		T max = top();
 		tab.set(0, replacement);
 		maxHeapify(0);
 		return max;
 	}
 
-	public void heapify(ArrayList<Double> heap){
-		tab = (ArrayList<Double>) heap.clone();
+	public void heapify(ArrayList<T> heap){
+		tab = (ArrayList<T>) heap.clone();
 		heapSize = heap.size();
 		for(int i=heapSize/2; i>=0; i--){
 			maxHeapify(i);
 		}
 	}
 
-	public void meld(ArrayList<Double> heap){
+	public void meld(ArrayList<T> heap){
 
-		for(double x:heap){
+		for(T x:heap){
 			tab.add(x);
 		}
 		heapSize += heap.size();
@@ -137,11 +145,9 @@ public class Heap {
 
 	public Heap merge(Heap heap){
 		Heap result = new Heap();
-		result.tab = (ArrayList<Double>)this.tab.clone();
+		result.tab = (ArrayList<T>) this.tab.clone();
 		result.heapSize = result.tab.size();
-		for(double x:heap.tab){
-			result.tab.add(x);
-		}
+		result.tab.addAll(heap.tab);
 		result.heapSize += heap.size();
 		for(int i=result.heapSize/2; i>=0; i--)
 		{

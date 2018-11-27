@@ -1,7 +1,7 @@
 package java2015.main;
 
-import org.junit.Test;
 import java2015.domain.Heap;
+import org.junit.Test;
 
 import java.util.ArrayList;
 
@@ -19,8 +19,8 @@ public class AppTest {
         heap.insert(6);
         heap.insert(1);
 
-        assertEquals(6,heap.extractMax(), 0);
-        assertEquals(3,heap.extractMax(), 0);
+        assertEquals(6,(Double)heap.extractMax(), 0);
+        assertEquals(3,(Double)heap.extractMax(), 0);
 
     }
 
@@ -36,7 +36,7 @@ public class AppTest {
 
         heap.deleteMax();
 
-        assertEquals(3,heap.top(), 0);
+        assertEquals(3,(Double)heap.top(), 0);
     }
 
     @Test
@@ -49,10 +49,10 @@ public class AppTest {
         heap.insert(6);
         heap.insert(1);
 
-        double rep = heap.replace(10);
+        double rep = (Double)heap.replace(10.0);
 
         assertEquals(6,rep, 0);
-        assertEquals(10,heap.extractMax(), 0);
+        assertEquals(10,(Double)heap.extractMax(), 0);
     }
 
     @Test
@@ -67,7 +67,7 @@ public class AppTest {
         Heap heap1 = new Heap();
         heap1.heapify(heap);
 
-        assertEquals(9,heap1.extractMax(), 0);
+        assertEquals(9,(Double)heap1.extractMax(), 0);
     }
 
     @Test
@@ -87,11 +87,11 @@ public class AppTest {
 
         heap.meld(heap1);
 
-        assertEquals(11,heap.extractMax(), 0);
-        assertEquals(8,heap.extractMax(), 0);
-        assertEquals(6,heap.extractMax(), 0);
-        assertEquals(3,heap.extractMax(), 0);
-        assertEquals(3,heap.extractMax(), 0);
+        assertEquals(11,(Double)heap.extractMax(), 0);
+        assertEquals(8,(Double)heap.extractMax(), 0);
+        assertEquals(6,(Double)heap.extractMax(), 0);
+        assertEquals(3,(Double)heap.extractMax(), 0);
+        assertEquals(3,(Double)heap.extractMax(), 0);
     }
 
     @Test
@@ -111,10 +111,10 @@ public class AppTest {
 
         Heap res = heap.merge(heap1);
 
-        assertEquals(11,res.extractMax(), 0);
-        assertEquals(8,res.extractMax(), 0);
-        assertEquals(6,res.extractMax(), 0);
-        assertEquals(3,res.extractMax(), 0);
-        assertEquals(3,res.extractMax(), 0);
+        assertEquals(11,(Double)res.extractMax(), 0);
+        assertEquals(8,(Double)res.extractMax(), 0);
+        assertEquals(6,(Double)res.extractMax(), 0);
+        assertEquals(3,(Double)res.extractMax(), 0);
+        assertEquals(3,(Double)res.extractMax(), 0);
     }
 }
