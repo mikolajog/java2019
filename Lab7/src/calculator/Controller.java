@@ -33,10 +33,6 @@ public class Controller {
         ResultField.setText(String.valueOf(result));
 
 
-
-
-
-
     }
 
 
