@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e825699d-db76-4b9c-ad53-bb64e3f2a72b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab8/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/database1/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/pracownikDataBase/Kadry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/pracownikDataBase/PensjaComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/pracownikDataBase/Pracownik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/pracownikDataBase/PracownikEtatowy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/pracownikDataBase/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7/src/wykresy/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7/src/wykresy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7/src/wykresy/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7/src/wykresy/View.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/histogram/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/histogram/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/histogram/View.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/src/calculator/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/src/calculator/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/src/histogram/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/src/histogram/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/src/histogram/View.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/calculator/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/out/production/Lab7/calculator/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,7 +22,7 @@
     <session id="130873390">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.13" value="1" />
@@ -260,15 +249,15 @@
       <workItem from="1542634420521" duration="1084000" />
       <workItem from="1542734596588" duration="70000" />
       <workItem from="1543414197454" duration="683000" />
-      <workItem from="1543656348717" duration="629000" />
+      <workItem from="1543656348717" duration="1168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28098000" />
+    <option name="totallyTimeSpent" value="28637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09618574" />

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wykresy.Controller">
+   <children>
+      <Label layoutX="141.0" layoutY="14.0" text="Wykres równania an*x^n+an-1*x^n-1+...+a1*x+a0" />
+      <TextField fx:id="wspolczynnikiField" layoutX="98.0" layoutY="65.0" prefHeight="26.0" prefWidth="238.0" />
+      <TextField fx:id="zakresOdField" layoutX="442.0" layoutY="138.0" prefHeight="26.0" prefWidth="113.0" />
+      <Button fx:id="rysujButton" layoutX="472.0" layoutY="277.0" mnemonicParsing="false" onAction="#rysuj" text="Rysuj" />
+      <Button fx:id="wyczyscButton" layoutX="461.0" layoutY="327.0" mnemonicParsing="false" onAction="#wyczysc" text="Wyczyść" />
+      <Label layoutX="14.0" layoutY="49.0" text="Współczynniki w kolejnosci od an do a0 oddzielone spacją:" />
+      <Label layoutX="444.0" layoutY="57.0" text="Co ile argumenty:" />
+      <TextField fx:id="zakresDoField" layoutX="443.0" layoutY="208.0" prefHeight="26.0" prefWidth="113.0" />
+      <TextField fx:id="czestotliwoscField" layoutX="442.0" layoutY="78.0" prefHeight="26.0" prefWidth="113.0" />
+      <Label layoutX="464.0" layoutY="122.0" text="Zakres od:" />
+      <Label layoutX="463.0" layoutY="192.0" text="Zakres do: " />
+      <AnchorPane fx:id="anchorPane" layoutX="6.0" layoutY="100.0" prefHeight="298.0" prefWidth="434.0" />
+   </children>
+</AnchorPane>
