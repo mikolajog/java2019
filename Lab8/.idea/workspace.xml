@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f6e466b-50d8-41f9-bd4c-4b9ed3060e3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/wykresy/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/wykresy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/wykresy/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/wykresy/View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/przyklad1/GlownyWatek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/przyklad1/GlownyWatek1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/random/GenerateRandoms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/IHaveFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/Kwadratowa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/MaxMultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/libraries/io_indico_3_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/libraries/io_indico_3_15_0_jar_with_dependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/src/main/java/sortingPics/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/out/production/Lab7/calculator/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/out/production/Lab7/calculator/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/database1/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/database1/DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pracownikDataBase/Kadry.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pracownikDataBase/Kadry.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,10 +47,12 @@
     <session id="-682635086">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,12 +95,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/database1/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="102" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+            <state relative-caret-position="345">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,16 +121,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pracownikDataBase/PracownikEtatowy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pracownikDataBase/Kadry.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -538,6 +558,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -587,15 +608,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543421696225" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab7" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543927761688" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -629,7 +649,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kadry">
+  <component name="RunManager" selected="Application.DB">
+    <configuration name="DB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database1.DB" />
+      <module name="javaM_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kadry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pracownikDataBase.Kadry" />
       <module name="javaM_main" />
@@ -704,9 +737,11 @@
       <item itemvalue="Cucumber java.All Features in: database1" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Kadry" />
+      <item itemvalue="Application.DB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DB" />
         <item itemvalue="Application.Kadry" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Cucumber java.All Features in: database1" />
@@ -726,6 +761,9 @@
       <updated>1543401727549</updated>
       <workItem from="1543401730870" duration="18621000" />
       <workItem from="1543656919141" duration="1265000" />
+      <workItem from="1543878310741" duration="599000" />
+      <workItem from="1543914179745" duration="2336000" />
+      <workItem from="1544529339706" duration="169000" />
     </task>
     <servers />
   </component>
@@ -735,10 +773,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19886000" />
+    <option name="totallyTimeSpent" value="22990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -746,7 +784,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18352681" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.106688775" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -754,7 +792,7 @@
       <window_info anchor="bottom" id="Build" order="3" weight="0.33054394" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.34309623" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.34309623" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -812,23 +850,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/database1/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="102" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
+        <state relative-caret-position="345">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -845,14 +873,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pracownikDataBase/PracownikEtatowy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pracownikDataBase/Kadry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
