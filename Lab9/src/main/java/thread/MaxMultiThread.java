@@ -4,10 +4,11 @@ package thread;
 import random.GenerateRandoms;
 
 import java.io.File;
-import java.io.FileNotFoundException;
+
+import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class MaxMultiThread {
+public class MaxMultiThread implements Runnable {
 
     private String nazwaPliku;
 
@@ -15,12 +16,19 @@ public class MaxMultiThread {
         nazwaPliku = nazwa;
     }
 
-    public void obliczaj(IHaveFunction o1)throws FileNotFoundException, InterruptedException {
-        GenerateRandoms g1 = new GenerateRandoms(nazwaPliku);
-        Thread thread = new Thread(g1);
-        thread.start();
-        Scanner odczyt = new Scanner(new File("/home/mikolaj/Desktop/" + nazwaPliku + ".txt"));
-        String sentence;
+    public void run () {
+
+        try {
+            PrintWriter writer = new PrintWriter(new File("/home/mikolaj/Desktop/" + nazwaPliku + ".txt"));
+            writer.print("");
+            writer.close();
+            Kwadratowa o1 = new Kwadratowa();
+
+            GenerateRandoms g1 = new GenerateRandoms(nazwaPliku);
+            Thread thread = new Thread(g1);
+            thread.start();
+            Scanner odczyt = new Scanner(new File("/home/mikolaj/Desktop/" + nazwaPliku + ".txt"));
+            String sentence;
             while (true) {
                 System.out.println("Odczytuje");
                 sentence = odczyt.nextLine();
@@ -28,12 +36,13 @@ public class MaxMultiThread {
                 Thread.sleep(10);
             }
 
+        }
+        catch (InterruptedException e){}
+        catch (java.io.FileNotFoundException a){}
     }
 
-    public static void main (String[] args) throws FileNotFoundException, InterruptedException{
-        MaxMultiThread m1 = new MaxMultiThread("moja1");
-        m1.obliczaj(new Kwadratowa());
-
-    }
 }
+
+
+
 
