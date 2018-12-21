@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f6e466b-50d8-41f9-bd4c-4b9ed3060e3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/przyklad1/GlownyWatek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/przyklad1/GlownyWatek1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/random/GenerateRandoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/IHaveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/Kwadratowa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/MaxMultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/libraries/io_indico_3_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/libraries/io_indico_3_15_0_jar_with_dependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/src/main/java/sortingPics/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/database1/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/database1/DB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pracownikDataBase/Kadry.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pracownikDataBase/Kadry.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,12 +22,12 @@
     <session id="-682635086">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -558,7 +533,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -608,7 +583,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -764,6 +739,7 @@
       <workItem from="1543878310741" duration="599000" />
       <workItem from="1543914179745" duration="2336000" />
       <workItem from="1544529339706" duration="169000" />
+      <workItem from="1545320556597" duration="25000" />
     </task>
     <servers />
   </component>
@@ -773,18 +749,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22990000" />
+    <option name="totallyTimeSpent" value="23015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.106688775" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10779436" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -792,7 +767,7 @@
       <window_info anchor="bottom" id="Build" order="3" weight="0.33054394" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.34309623" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.34309623" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />

@@ -2,90 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/Lab6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/src/histogram/JavaFX_Histogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/src/osoby/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/src/osoby/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/src/osoby/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab6/src/osoby/View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/przyklad1/GlownyWatek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/przyklad1/GlownyWatek1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/random/GenerateRandoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/IHaveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/Kwadratowa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/thread/MaxMultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/libraries/io_indico_3_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/libraries/io_indico_3_15_0_jar_with_dependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSortowanieZdjec/src/main/java/sortingPics/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/src/main/java/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/src/main/java/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/src/main/java/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/histogram/JavaFX_Histogram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/osoby/Frame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/osoby/Frame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/osoby/FrameTest$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/osoby/FrameTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/osoby/FrameTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/zadanie1/SimpleFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/zadanie1/SimpleFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/zadanie1/SimpleTestFrame$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/zadanie1/SimpleTestFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build/classes/java/main/zadanie1/SimpleTestFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/main/java/histogram/JavaFX_Histogram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/main/java/osoby/Frame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/main/java/osoby/FrameTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/main/java/zadanie1/SimpleFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/src/main/java/zadanie1/SimpleTestFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwiczenie1/Circl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/cwiczenie1/Circl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwiczenie1/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/cwiczenie1/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwiczenie1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/cwiczenie1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwiczenie1/Rectangl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/cwiczenie1/Rectangl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwiczenie1/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/cwiczenie1/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwiczenie1/Triangl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/cwiczenie1/Triangl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwiczenie1/View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/cwiczenie1/View.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab8/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab8/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab8/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab8/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab8/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/build/classes/java/main/database1/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/build/classes/java/main/database1/DB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/build/classes/java/main/pracownikDataBase/Kadry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/build/classes/java/main/pracownikDataBase/Kadry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,7 +64,7 @@
     <session id="-486121621">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
@@ -273,11 +196,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="300" />
     <option name="y" value="132" />
-    <option name="width" value="1394" />
-    <option name="height" value="836" />
+    <option name="width" value="1396" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -300,12 +223,6 @@
               <item name="Lab7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Lab7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab7" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wykresy" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -324,9 +241,9 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545320364919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545320583296" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab8" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
@@ -525,12 +442,12 @@
       <workItem from="1543658320324" duration="14522000" />
       <workItem from="1543840495255" duration="242000" />
       <workItem from="1545301359728" duration="857000" />
-      <workItem from="1545305951612" duration="1307000" />
+      <workItem from="1545305951612" duration="1673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66313000" />
+    <option name="totallyTimeSpent" value="66679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
